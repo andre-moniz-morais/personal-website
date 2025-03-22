@@ -1,0 +1,57 @@
+.pd--container{
+    display: flex;
+}
+
+.pd_pfp{
+    width: 40%;
+    flex:none;
+    border-radius: 10px;
+}
+
+.pd_separator{
+    width: 1px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 1px;
+    margin: 0px 10px;
+}
+
+.pd_details--container{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.pd_details_socials {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 15px;
+}
+
+.pd_details_socials--button{
+    background-color: rgb(30, 30, 30);
+    border: none;
+    border-radius: 13px;
+    padding: 10px;
+    cursor: pointer;
+    aspect-ratio: 1;
+    background-size: 45%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s;
+}
+
+.pd_details_socials--button:hover{
+    background-size: 55%;
+    background-color: rgb(40, 40, 40);
+}
+
+.pd_details_socials--button:active{
+    background-size: 60%;
+    background-color: rgb(50, 50, 50);
+}
+
+.pd_details_text{
+    color: white;
+    font-size: 1.5em;
+    margin: 10px 0px;
+}
