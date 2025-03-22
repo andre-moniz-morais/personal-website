@@ -19,6 +19,7 @@
     flex:1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .pd_details_socials {
@@ -52,6 +53,12 @@
 
 .pd_details_text{
     color: white;
-    font-size: 1.5em;
+    font-size: 0.9rem;
     margin: 10px 0px;
+    text-align: justify;
+}
+
+.pd_details_text p{
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
 }

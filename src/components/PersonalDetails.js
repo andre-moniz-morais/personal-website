@@ -9,11 +9,6 @@ import codepen_icon from '../assets/codepen-icon.png';
 import '../styles/PersonalDetails.css';
 
 function PersonalDetails() {
-
-    const open_link = (url) => {
-
-    }
-
     return (
         <div className="pd--container">
             <img
@@ -36,10 +31,13 @@ function PersonalDetails() {
                 </div>
 
                 <div className='pd_details_text'>
-                    I'm a full-stack developer with expertise in PHP, Python, JavaScript, jQuery, and various database query languages.
-                    Formerly the founder of Skillskope, I now work as an employee while building my new company, Unlimited Solutions.
-                    Beyond coding, I have skills in Photoshop, Illustrator, and video creation for my tech-focused YouTube channel.
-                    Passionate about innovation, I specialize in developing efficient, scalable solutions across multiple technologies.
+                    <p>I'm a full-stack developer with expertise in PHP, Python, JavaScript, jQuery, and various database query languages.</p>
+                    
+                    <p>Formerly the founder of Skillskope, I now work as an employee while building my new company, Unlimited Solutions.</p>
+
+                    <p>Beyond coding, I have skills in Photoshop, Illustrator, and video creation for my tech-focused YouTube channel.</p>
+                    
+                    <p>Passionate about innovation, I specialize in developing efficient, scalable solutions across multiple technologies.</p>
                 </div>
             </div>
         </div>
