@@ -3,6 +3,11 @@
     font-weight: bold;
 }
 
+.general--container{
+    display: flex;
+    flex-direction: column;
+}
+
 .horizontal_scroll--container{
     width: 100%;
     display: flex;
@@ -77,6 +82,9 @@
     padding: 7px 30px 7px 10px;
     font-weight: 600;
     background-color: rgb(30, 30, 30);
+    background-position: calc(100% - 5px) center;
+    background-repeat: no-repeat;
+    background-size: 20px;
 }
 
 .horizontal_scroll_item--description__external a:hover{
